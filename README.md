@@ -10,10 +10,6 @@ A model is trained on the fer2013 dataset.
 The stress level is calculated with the help of eyebrows contraction and displacemnent from the mean position. The distance between the 
 left and right eyebrow is being calculated and then the stress level is calculated using exponential function and normalized between 1 to 100.  
 
-*** Important****
-Before running the eyebrow_detection.py first download file in the same folder using this [link](https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2)
-
-
 ## Procedure:
 1. Real time web cam feed
 2. Detect faces
